@@ -60,7 +60,7 @@
 | [Fast Fusion](https://store.nintendo.co.kr/70010000097009) | 2025/06/05 | ✅ | ✅ | Racing |
 | [Survival Kids](https://store.nintendo.co.kr/70010000095997) | 2025/06/05 | ✅ | — | Action, Party, Puzzle |
 
-<sub>✅ 지원 / Supported · — 미지원 / Not supported · 가까이 = Local wireless · 게임챗 = Game Chat</sub>
+✅ = 지원 / Supported &nbsp;&nbsp; — = 미지원 / Not supported &nbsp;&nbsp; 가까이 = Local wireless &nbsp;&nbsp; 게임챗 = Game Chat
 
 ---
 
@@ -80,11 +80,9 @@ pip install requests beautifulsoup4 lxml
 python scraper.py
 ```
 
-- `gameshare_games_날짜.csv` 파일로 저장됩니다
-- 중단 후 재실행 시 `progress.json` 기반으로 이어서 실행합니다
-- 403 차단 발생 시 자동 재시도합니다
-
-<sub>Results saved to gameshare_games_&lt;datetime&gt;.csv · Resumes from progress.json if interrupted · Auto-retries 403-blocked URLs</sub>
+- `gameshare_games_날짜.csv` 파일로 저장됩니다 / *Results saved to `gameshare_games_<datetime>.csv`*
+- 중단 후 재실행 시 `progress.json` 기반으로 이어서 실행합니다 / *Resumes from `progress.json` if interrupted*
+- 403 차단 발생 시 자동 재시도합니다 / *Auto-retries 403-blocked URLs*
 
 ---
 
