@@ -1,18 +1,20 @@
 # 닌텐도 스위치 2 나눔통신 지원 게임 목록
 
-*Nintendo Switch 2 GameShare Supported Games List*
+<sub>Nintendo Switch 2 GameShare Supported Games List</sub>
 
 닌텐도 코리아 스토어에서 **나눔통신(GameShare)** 지원 Nintendo Switch 2 게임을 자동으로 수집하는 스크레이퍼입니다.
-*A scraper that automatically collects Nintendo Switch 2 games supporting GameShare from the Nintendo Korea store.*
+
+<sub>A scraper that automatically collects Nintendo Switch 2 games supporting GameShare from the Nintendo Korea store.</sub>
 
 ---
 
 ## 나눔통신이란?
 
-*What is GameShare?*
+<sub>What is GameShare?</sub>
 
 한 명이 게임을 보유하면 주변 사람들과 함께 플레이할 수 있는 Nintendo Switch 2의 새로운 기능입니다.
-*A Nintendo Switch 2 feature where one game owner can share gameplay with nearby players.*
+
+<sub>A Nintendo Switch 2 feature where one game owner can share gameplay with nearby players.</sub>
 
 - **가까이 있는 사람** — 근거리 무선 통신으로 나눔 / *Local wireless share*
 - **게임챗 중** — 게임챗 연결된 사람과 나눔 / *Game Chat share*
@@ -21,12 +23,13 @@
 
 ## 나눔통신 지원 게임 목록
 
-*GameShare Supported Games*
+<sub>GameShare Supported Games</sub>
 
 총 **28**개 게임 · 최근 업데이트: 2026.02.20
-*28 games total · last updated 2026.02.20*
 
-| 게임명<br>*Title* | 출시일<br>*Release* | 가까이<br>*Local* | 게임챗<br>*Chat* | Genre |
+<sub>28 games total · last updated 2026.02.20</sub>
+
+| 게임명<br><sub>Title</sub> | 출시일<br><sub>Release</sub> | 가까이<br><sub>Local</sub> | 게임챗<br><sub>Chat</sub> | Genre |
 |--------|--------|:---:|:---:|------|
 | [Goat Simulator 3](https://store.nintendo.co.kr/70010000115434) | 2026/04/01 | ✅ | ✅ | Action, Adventure, Simulation |
 | [REANIMAL](https://store.nintendo.co.kr/70010000109879) | 2026/02/13 | ✅ | ✅ | Adventure, Puzzle |
@@ -63,7 +66,7 @@
 
 ## 로컬에서 사용하는 방법
 
-*How to run locally*
+<sub>How to run locally</sub>
 
 ```bash
 # 가상환경 생성 / Create virtual environment
@@ -77,9 +80,11 @@ pip install requests beautifulsoup4 lxml
 python scraper.py
 ```
 
-- `gameshare_games_날짜.csv` 파일로 저장됩니다 / *Results saved to gameshare_games_&lt;datetime&gt;.csv*
-- 중단 후 재실행 시 `progress.json` 기반으로 이어서 실행합니다 / *Resumes from progress.json if interrupted*
-- 403 차단 발생 시 자동 재시도합니다 / *Auto-retries 403-blocked URLs*
+- `gameshare_games_날짜.csv` 파일로 저장됩니다
+- 중단 후 재실행 시 `progress.json` 기반으로 이어서 실행합니다
+- 403 차단 발생 시 자동 재시도합니다
+
+<sub>Results saved to gameshare_games_&lt;datetime&gt;.csv · Resumes from progress.json if interrupted · Auto-retries 403-blocked URLs</sub>
 
 ---
 
